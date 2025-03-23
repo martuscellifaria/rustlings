@@ -12,6 +12,16 @@
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
+fn calculate_price_of_apples (amount :i32) -> i32
+{
+    let mut rustbuck = 2;
+    if amount > 40
+    {
+        rustbuck = 1;
+    }
+    amount * rustbuck
+}
+
 fn main() {
     // You can optionally experiment here.
 }
